@@ -1,0 +1,72 @@
+mainColor = #FF44D6
+
+body 
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased
+
+.navbar 
+  background-color black
+  padding 30px 0
+
+.navbar-light .navbar-nav .nav-link 
+  color mainColor
+
+  &:hover 
+    color mainColor
+    transform scale(.98)
+
+.menuLinks
+  display: flex
+  justify-content space-around
+  align-items center
+  align-content center
+  flex-direction column
+
+  @media screen and (max-width: 576px) {
+    display: none
+  }
+
+.menuCTAs
+  display flex
+  flex-direction row
+  justify-content flex-end
+
+  @media screen and (max-width: 576px) {
+    flex-direction: row-reverse
+  }
+
+.btn 
+  transition all .20s ease-in-out
+  line-height: 40px
+
+.btn.btn-primary
+  background mainColor
+  border-color mainColor
+  color black
+
+  @media screen and (max-width: 576px) {
+    font-size 12px
+    padding 8px 20px
+  }
+
+  &:hover 
+    background mainColor
+    border-color mainColor
+    color black
+    transform scale(1.05)
+
+.btn.btn-secondary
+  background transparent
+  border-color mainColor
+  color mainColor
+
+  @media screen and (max-width: 576px) {
+    font-size 12px
+    padding 8px 0
+  }
+
+  &:hover 
+    background transparent
+    border-color mainColor
+    color mainColor
+    transform scale(1.05)

@@ -1,0 +1,56 @@
+{
+    "copy": {
+        "title": "Uma escola pensada para profissionais de áreas criativas.",
+        "subtitle": "É o lugar onde copywriters, designers e coprodutores de todo o Brasil se reunem para renovar as energias e ultrapassar limites.",
+        "firstAction": "Começar"
+    },
+
+    "checkout": {
+        "month": {
+            "price": "49,90",
+            "url": "https://pay.kiwify.com.br/Cx4RchS"
+        },
+
+        "year": {
+            "price": "397,00",
+            "url": "https://pay.kiwify.com.br/4q25OJi"
+        }
+    },
+
+    "courses": [
+        {
+            "id": 1,
+            "title": "Iniciantes no marketing digital",
+            "imageURL": "https://i.postimg.cc/GmHBGbms/IMG-6346.jpg"
+        },
+        {
+            "id": 2,
+            "title": "As 4 narrativas essenciais",
+            "imageURL": "https://i.postimg.cc/WzJP7Yxj/4-narrativas-thumb.png"
+        },
+
+        {
+            "id": 3,
+            "title": "Treinamento em vendas",
+            "imageURL": "https://i.postimg.cc/GmHBGbms/IMG-6346.jpg"
+        },
+
+        {
+            "id": 4,
+            "title": "Co-produção e lançamentos",
+            "imageURL": "https://i.postimg.cc/GmHBGbms/IMG-6346.jpg",
+            "new": true
+        }
+    ],
+
+    "extras": [
+        {
+            "id": 0,
+            "title": "Acesso aos próximos cursos"
+        },
+        {
+            "id": 1,
+            "title": "Fórum de alunos no Facebook"
+        }
+    ]
+}
